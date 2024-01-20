@@ -11,7 +11,7 @@ const port = process.env.PORT || 3000;
 const username = process.env.MONGODB_USERNAME;
 const password = process.env.MONGODB_PASSWORD;
 
-mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.bjl3tdl.mongodb.net/registrationFormDB` , {
+mongoose.connect(`mongodb+srv://${username}:${password}@cluster0.gfhl14r.mongodb.net/registrationFormDB`, {
     useNewUrlParser : true,
     useUnifiedTopology : true,
 });
